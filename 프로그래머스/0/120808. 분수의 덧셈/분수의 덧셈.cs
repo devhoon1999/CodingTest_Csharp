@@ -18,6 +18,6 @@ public class Solution
             b = a % b;
             a = temp;
         }
-        return Math.Abs(a); // 절대값 반환 (음수 방지)
+        return Math.Abs(a);
     }
 }
