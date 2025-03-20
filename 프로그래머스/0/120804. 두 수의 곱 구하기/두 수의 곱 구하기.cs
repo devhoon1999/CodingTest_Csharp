@@ -9,6 +9,6 @@ public class Solution {
             answer = num1 * num2;
             return answer;
         }
-        throw new ArgumentOutOfRangeException("num1과 num2는 0 보다 크고 100 이하의 값이어야 합니다.");
+        throw new ArgumentOutOfRangeException("num1과 num2는 0 이상 100 이하의 값이어야 합니다.");
     }
 }
