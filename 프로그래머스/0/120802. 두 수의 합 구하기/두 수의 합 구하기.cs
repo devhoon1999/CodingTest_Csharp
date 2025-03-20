@@ -9,6 +9,6 @@ public class Solution {
             answer = num1 + num2;
             return answer;
         }
-        throw new ArgumentOutOfRangeException("num1과 num2는 -50000 이상 -50000 이하의 값이어야 합니다.");
+        throw new ArgumentOutOfRangeException("num1과 num2는 -50000 이상 50000 이하의 값이어야 합니다.");
     }
 }
